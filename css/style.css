@@ -1,0 +1,162 @@
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: "Tinos", serif;
+  color: #0C395E;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-family: "Tinos", serif;
+  font-size: 2em;
+}
+
+h4 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.5em;
+  color: #1082E1;
+}
+
+p {
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: #1082E1;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  padding: 1% 0;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+li {
+  text-align: left;
+}
+
+.headers {
+  border-style: solid;
+  border-color: #0C395E;
+  font-family: "Open Sans Condensed";
+}
+.left{text-align: left;}
+.center{text-align: center;}
+.closer {
+  background-color: #0C395E;
+}
+
+.hrtop {
+  border-top: 3px dotted #f2f2f2;
+}
+
+.hrmid {
+  border-top: 3px dotted #176EB6;
+}
+
+.jobs {
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.quotes {
+  color: #0C395E;
+  text-align: center;
+}
+
+.quotes2 {
+  color: #f2f2f2;
+  text-align: center;
+}
+
+.education {
+  font-size: 50px;
+  color: #0C395E;
+  text-align: left;
+  padding: 40px 180px;
+}
+
+.dates {
+  font-size: 15px;
+  color: #1082E1;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+  background-color: #f2f2f2;
+  margin-left: 10%;
+}
+
+.logo:hover {
+  filter: brightness(80%);
+}
+
+.logo2 {
+  text-align: center;
+  background-color: inherit;
+  margin-right: 3%;
+}
+
+.footer {
+  color: #f2f2f2;
+}
+
+.name {
+  font-family: "Tinos", serif;
+  font-size: 60px;
+  color: #0C395E;
+  text-align: center;
+  position: static;
+  display: grid;
+  margin-top: 50px;
+  text-shadow: 1px 1px #1082E1;
+  opacity: 3;
+}
+
+/* skills */
+.skillz {
+  font-size: 1.5rem;
+  margin: auto;
+  text-align: center;
+  color: #176EB6;
+}
+
+.boarders {
+  background-color: #f2f2f2;
+}
+
+.skill {
+  padding: 3%;
+  border-bottom: solid;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.city {
+  background-image: url("city.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .9;
+}
