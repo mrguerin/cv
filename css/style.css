@@ -159,5 +159,12 @@ li {
   background-size: cover;
   background-attachment: fixed;
   opacity: .9;
+  background-position:center; 
+  background-attachment:scroll; 
+  -o-background-size:cover; 
+  -moz-background-size:cover; 
+  -webkit-background-size:cover; 
+  background-repeat:no-repeat;
 }
+
 
