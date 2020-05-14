@@ -10,7 +10,8 @@
   <meta name="generator" content="Jekyll v3.8.6">
   <title>Marc-Ryan Guerin</title>
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Tinos&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -18,11 +19,14 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165298367-1"></script>
   <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-165298367-1');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-165298367-1');
   </script>
 
   <!-- Favicons -->
@@ -59,7 +63,7 @@
       <!-- Welcome to My Page -->
       <div class="row">
         <div class="col">
-          <h1 class="name"><strong>MARC-RYAN GUERIN</strong></h1>
+          <h1 class="title"><span>Marc-Ryan Guerin</span></h1>
         </div>
       </div>
       </div>
@@ -69,35 +73,52 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12">
-            <h1>P R O F I L E</h1>
-            <p class="quotes">&ldquo;You were born an original. Don’t die a copy.&rdquo;<br /> -John Mason</p>
+            <h1 class="heading"> Profile </h1>
+            <p class="quotes">&ldquo;<em> The best way to predict the future is to create it. </em>&rdquo;<br /> <em>- Abraham Lincoln</em></span></p>
             <hr class="hrtop">
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <h1 class="headers">ABOUT ME</h1>
-            <ul class="left">
-              <p> Corporate Financial Development Analytics and International Hospitality Management.</p>
-              <p> I am currently residing in Chicago working with the Hyatt Corporation NYSE:(H) as a Development Financial Analyst.</p>
-              <p> Always striving to learn from the world and my experiences. I use the knowledge gained and apply it to my everyday life.</p>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <img class="rounded border border-primary img-thumbnail" src="css/MRGpic.jpeg" alt="pic">
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <h1 class="headers">DETAILS</h1>
-            <h4> Name:</h4>
-            <p>Marc-Ryan Guerin</p>
-            <h4>Age:</h4>
-            <p>28 Years</p>
-            <h4>Locations:</h4>
-            <p> Chicago, IL / Long Beach,CA</p>
-            <h4>Nationality:</h4>
-            <p>French/American</p>
+
+          <div class="col">
+            <img class="rounded border border-dark me" src="css/MRGpic.jpeg" alt="pic">
           </div>
         </div>
+        <section>
+          <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-12">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <h3 class="headers">DETAILS</h3>
+              <h4 class="sub-headers"> Name:</h4>
+              <p>Marc-Ryan Guerin</p>
+              <h4 class="sub-headers">Age:</h4>
+              <p>28 Years</p>
+              <h4 class="sub-headers">Locations:</h4>
+              <p> Chicago, IL</p>
+              <h4 class="sub-headers">Nationality:</h4>
+              <p>French/American</p>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12">
+              <h3 class="headers">ABOUT ME</h3>
+              <ul class="left">
+
+                <p>
+                  <li>
+                    I am a Development Financial Analyst currently residing in Chicago continuing my career with the Hyatt Corporation for the past 5 years. Within my 9 years of professional experience, I have been able to develop a successful track
+                    record of accomplishments within my organization. I am a motivated individual who understands the importance of upholding standards and who works to exceed all expectations. I bring a comprehensive set of skills in Financials
+                    analytics. Being able to work internationally I have had to opportunity to broaden my understanding of business. My management, people-centric nature, and compassion have afforded me excellent leadership
+                    skills.Should you find that my skills align with your company needs I would welcome the opportunity to discuss your needs further.
+                  </li>
+                </p>
+
+              </ul>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
       </div>
       </div>
       <hr>
@@ -107,20 +128,107 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h1>J O U R N E Y</h1>
-            <p class="quotes">&ldquo;People who are unable to motivate themselves must be content with mediocrity, no matter how impressive their other talents.&rdquo;
-              <br />-Robert Carnegie</p>
-            <hr class="hrmid">
+            <h1 class="heading"><span>Journey</span></h1>
+
+            <br>
           </div>
         </div>
+
+        <!-- Work History -->
+        <section>
+          <div class="container">
+            <div class="row">
+
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="jobs"> Hyatt Hotels Corporation, IL </h3>
+                <img src="css/150.jpg" alt="Hyatt" class="rounded logo2" height="200" width="275">
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="jobs"> Development Financial Analyst </h3>
+                <p class="dates"> September 2018 - Current </p>
+                <p>
+                  <li>Estimate the value of a proposed hotel</li>
+                  <li>Structure hotel investments </li>
+                  <li>Analyze management contracts from owners and operators</li>
+                  <li>Perform market studies</li>
+                  <li>Manage underwriting tools</li>
+                  <li>Develop a strategic vision for asset management</li>
+                  <li>Utilize industry-standard tools to benchmark expenses and revenues</li>
+                </p>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="jobs"> Hyatt La Jolla & Mission Bay, CA</h3>
+                <img src="css/jolla.jpg" alt="Jolla" class="rounded logo2" height="200" width="275">
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="jobs"> Dual Productivity Manager </h3>
+                <p class="dates"> May 2017 - Sep 2018</p>
+                <p>
+                  <li>Develop labor management strategy & drive change for hotel</li>
+                  <li>Collaborate with all departments to drive all KPIs</li>
+                  <li>Provide oversight on labor management and scheduling system</li>
+                  <li>Drove management thinking to improve financial strategies </li>
+                  <li>Managed labor metrics</li>
+                  <li>Partnered with finance to produce annual labor budget</li>
+                </p>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="jobs"> Hyatt Regency Long Beach, CA </h3>
+                <img src="css/hlb.jpg" alt="Jolla" class="rounded logo2" height="200" width="275">
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="jobs"> Assistant Outlet Director </h3>
+                <p class="dates"> Sep 2016 - May 2017</p>
+                <p>
+                  <li>Manage all F&B Financials and day-to-day operations</li>
+                  <li>Preserved excellent levels of internal and external customer service</li>
+                  <li>Responsible for recruiting, training and appraising talented personnel</li>
+                  <li>Establish policies and procedures</li>
+                  <li>Stay up to date on common industry practices</li>
+                </p>
+              </div>
+            </div>
+            <br>
+            <div class="row view">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <h1 class="jobs"> International Carlton Cannes, France </h1>
+                <img src="css/cannes.jpeg" alt="Jolla" class="rounded logo2" height="200" width="275">
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <h3 class="jobs"> Assistant Director of Reception </h3>
+                <p class="dates"> Apr 2015 - Aug 2015 <span class="date">(Job Contract)</span></p>
+                <p>
+                  <li> Assist Director of operations on day to day task</li>
+                  <li> Run daily operation meetings</li>
+                  <li> Create moments for VIP Clients to insure "experiences"</li>
+                  <li> Generate all expense reports</li>
+                  <li> Oversee logistic services with vendors</li>
+                  <li> Balancing superior service while maintaining a budget</li>
+                </p>
+              </div>
+            </div>
+            <br>
+            <hr>
+          </div>
+        </section>
         <!--Education  -->
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12">
             <a href="https://sha.cornell.edu/admissions-programs/executive-education/catalog/online/certificates/SHAC23">
               <img src="css/Cornell .png" alt="Cornell" class="rounded logo" width="200" height="200">
             </a>
+            <br>
             <ul>
-              <h4> Hotel Real Estate and Asset Management Certification </h4>
+              <h4 class="education"> Hotel Real Estate and Asset Management Certification </h4>
               <p class="dates"><em>Completion Sep 2017</span></em> </p>
             </ul>
           </div>
@@ -128,8 +236,9 @@
             <a href="https://www.vatel.fr/en/hotel-management-school-nimes/vatel-nimes-presentation">
               <img src="css/vatel.jpeg" alt="vatel" class="rounded logo" width="200" height="200">
             </a>
+            <br>
             <ul>
-              <h4> Dual Bachelors Degree International Hospitality and Tourism Business Management </h4>
+              <h4 class="education"> Dual Bachelors Degree International Hospitality and Tourism Business Management </h4>
               <p class="dates">Completion Jan 2016</p>
             </ul>
           </div>
@@ -137,99 +246,11 @@
             <a href="http://www.csulb.edu/college-of-business/international-business">
               <img src="css/LB.jpeg" alt="vatel" class="rounded logo" width="200" height="200">
             </a>
+            <br>
             <ul>
-              <h4> International Business Management</h4>
+              <h4 class="education"> International Business Management</h4>
               <p class="dates">Transfer 2012</p>
             </ul>
-          </div>
-        </div>
-        <hr>
-      </div>
-    </section>
-    <!-- Work History -->
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col quotes">
-            <h1>CAREER</h1>
-            <p class="quotes">&ldquo;The best way to predict the future is to create it.&rdquo;<br />-Abraham Lincoln</span></p>
-            <hr class="hrmid">
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <h1 class="jobs"> Hyatt Hotels Corporation, IL </h3>
-              <img src="css/150.jpg" alt="Hyatt" class="rounded logo2" height="200" width="275">
-          </div>
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <h3> Development Financial Analyst </h3>
-            <p class="dates"> September 2018 - Current </p>
-            <p>
-              <li>Estimate the value of a proposed hotel</li>
-              <li>Structure hotel investments </li>
-              <li>Analyze management contracts from owners and operators</li>
-              <li>Perform market studies</li>
-              <li>Manage underwriting tools</li>
-              <li>Develop a strategic vision for asset management</li>
-              <li>Utilize industry-standard tools to benchmark expenses and revenues</li>
-            </p>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <h1 class="jobs"> Hyatt La Jolla & Mission Bay, CA</h3>
-              <img src="css/jolla.jpg" alt="Jolla" class="rounded logo2" height="200" width="275">
-          </div>
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <h3> Dual Productivity Manager </h3>
-            <p class="dates"> May 2017 - Sep 2018</p>
-            <p>
-              <li>Develop labor management strategy & drive change for hotel</li>
-              <li>Collaborate with all departments to drive all KPIs</li>
-              <li>Provide oversight on labor management and scheduling system</li>
-              <li>Drove management thinking to improve financial strategies </li>
-              <li>Managed labor metrics</li>
-              <li>Partnered with finance to produce annual labor budget</li>
-            </p>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <h1 class="jobs"> Hyatt Regency Long Beach, CA </h1>
-            <img src="css/hlb.jpg" alt="Jolla" class="rounded logo2" height="200" width="275">
-          </div>
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <h3> Assistant Outlet Director </h3>
-            <p class="dates"> Sep 2016 - May 2017</p>
-            <p>
-              <li>Manage all F&B Financials and day-to-day operations</li>
-              <li>Preserved excellent levels of internal and external customer service</li>
-              <li>Responsible for recruiting, training and appraising talented personnel</li>
-              <li>Establish policies and procedures</li>
-              <li>Stay up to date on common industry practices</li>
-            </p>
-          </div>
-        </div>
-        <br>
-        <div class="row view">
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <h1 class="jobs"> International Carlton Cannes, France </h1>
-            <img src="css/cannes.jpeg" alt="Jolla" class="rounded logo2" height="200" width="275">
-          </div>
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <h3> Assistant Director of Reception </h3>
-            <p class="dates"> Apr 2015 - Aug 2015 <span class="date">(Job Contract)</span></p>
-            <p>
-              <li> Assist Director of operations on day to day task</li>
-              <li> Run daily operation meetings</li>
-              <li> Create moments for VIP Clients to insure "experiences"</li>
-              <li> Generate all expense reports</li>
-              <li> Oversee logistic services with vendors</li>
-              <li> Balancing superior service while maintaining a budget</li>
-            </p>
           </div>
         </div>
         <hr>
@@ -240,40 +261,52 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h1> A B I L I T I E S </h1>
-            <p class="quotes">
-              &ldquo;Life without knowledge is death in disguise.&rdquo;<br />- Talib Kweli
-            </p>
-            <hr class="hrmid">
+            <h1 class="heading"> ABILITIES </h1>
+            <br>
             <div class="row ">
-              <div class=" col-lg-6 col-md-6 col-sm-6 boarders">
-                <ul>
-                  <li>
-                    <h3 class="headers center"><strong>LANGUAGES</strong></h3>
-                    <p class="skillz"> <strong>English (Native Tongue)</strong></p>
-                    <p class="skillz"> <strong>French (Native Tongue)</strong></p>
-                    <p class="skillz"> <strong>Spanish (Proficient)</strong></p>
-                  </li>
-                </ul>
-                <br>
-                <img src="css/USA.png" alt="USFlag" width="50px" height="60px" class="rounded">
-                <img src="css/France.png" alt="FFlag" width="50px" height="60px" class="rounded">
-                <img src="css/Spain.png" alt="SpainFlag" width="50px" height="60px" class="rounded">
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 boarders">
+              <div class=" col-lg-4 col-md-4 col-sm-4 boarders">
 
                 <ul>
-                  <li>
-                    <h3 class="headers center"><strong>COMPUTER SKILLS</strong></h3>
-                    <p class="skillz "> <strong>Tableau </strong></p>
-                    <p class="skillz "> <strong>Anaconda</strong></p>
-                    <p class="skillz "> <strong>Microsoft Suite</strong></p>
-                    <p class="skillz "> <strong>Hyperion</strong></p>
-                    <p class="skillz "> <strong>CSS(3) </strong></p>
-                    <p class="skillz "> <strong>HTML(5)</strong></p>
-                    <p class="skillz "> <strong>JSON </strong></p>
-                    <p class="skillz "> <strong>MySQL</strong></p>
-                  </li>
+                  <h3 class="headers">LANGUAGES</h3>
+
+                  <p class="skillz"> English (Native Tongue)</p>
+                  <p class="skillz"> French (Native Tongue)</p>
+                  <p class="skillz"> Spanish (Proficient)</p>
+
+                </ul>
+                <br>
+                <img src="css/USA.png" alt="USFlag" width="80px" height="60px" class="rounded">
+                <img src="css/France.png" alt="FFlag" width="80px" height="60px" class="rounded">
+                <img src="css/Spain.png" alt="SpainFlag" width="80px" height="60px" class="rounded">
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 boarders">
+
+                <ul>
+                  <h3 class="headers">COMPUTER SKILLS</h3>
+                  <p class="skillz ">Tableau </p>
+                  <p class="skillz ">Anaconda</p>
+                  <p class="skillz ">Microsoft Suite</p>
+                  <p class="skillz ">Hyperion</p>
+                  <p class="skillz ">CSS(3) </p>
+                  <p class="skillz ">HTML(5)</p>
+                  <p class="skillz ">JSON </p>
+                  <p class="skillz ">MySQL</p>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 boarders">
+
+                <ul>
+                  <h3 class="headers">Finance Skills</h3>
+                  <p class="skillz ">Financial Accounting Systems </p>
+                  <p class="skillz ">Financial Controls </p>
+                  <p class="skillz ">Financial Auditing</p>
+                  <p class="skillz ">Commercial Strategy Development</p>
+                  <p class="skillz ">Software Development </p>
+                  <p class="skillz ">Financial Data Assessments</p>
+                  <p class="skillz ">Oracle Peoplesoft Financials</p>
+                  <p class="skillz ">Real Estate Development</p>
+                  <p class="skillz ">Residential Real Estate Development</p>
+                  <p class="skillz ">Financial Budgeting & Reporting</p>
                 </ul>
               </div>
             </div>
@@ -285,10 +318,10 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h1 class="footer"> C O N N E C T </h1>
+            <h1 class="footer"> <strong>CONNECT </strong></h1>
             <p class="quotes2">
-              &ldquo;Networking is a lot like nutrition and fitness: we know what to do, the hard part is making it a top priority.&rdquo;
-              <br />-Herminia Ibarra
+              &ldquo;<em> Networking is a lot like nutrition and fitness: we know what to do, the hard part is making it a top priority. </em>&rdquo;
+              <br /> <em>- Herminia Ibarra</em>
             </p>
             <hr class="hrmid">
             <div class="row">
@@ -313,7 +346,7 @@
                   <img src="css/Gmail.png" alt="Gmail" class="rounded logo2" width="45" height="35">
                 </a>
                 <a href="css/Marc-Ryan_Guerin_Resume.pdf" download>
-                  <img src="css/pdf.png" alt="Resume" class="rounded logo2" width="48" height="40"> </a>
+                  <img src="css/pdf.png" alt="Resume" class="rounded logo3" width="48" height="40"> </a>
               </div>
             </div>
           </div>
