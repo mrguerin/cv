@@ -110,7 +110,10 @@ section {
   font-family: 'Noto Sans SC', sans-serif;
   font-size: 1.0rem;
 }
-
+.me{
+  width:100%;
+  height: auto;}
+  
 .headers {
   border-style: solid;
   border-width: thin;
