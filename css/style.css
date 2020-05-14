@@ -222,7 +222,7 @@ section {
 .city {
   background: url("city.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -251,8 +251,6 @@ section {
   .heading {
     font-size: 1.5rem;
   }
-  .city {
-    background-size: 100% 100vh;
-  }
+ 
 }
 
