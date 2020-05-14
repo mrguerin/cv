@@ -252,5 +252,8 @@ section {
   .heading {
     font-size: 1.5rem;
   }
+  .city {
+    background-size: 100% 100vh;
+  }
 }
 
