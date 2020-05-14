@@ -231,3 +231,29 @@ section {
   -o-background-size: cover;
   opacity: .9;
 }
+
+@media (max-width: 750px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .footer {
+    font-size: 2rem;
+  }
+
+  .city {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    opacity: .9;
+    overflow: hidden;
+  }
+}
