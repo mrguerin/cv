@@ -230,6 +230,7 @@ section {
   background-size: cover;
   height: 100vh;
   overflow: hidden;
+  z-index:-1;
 
 }
 
