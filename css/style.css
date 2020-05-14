@@ -225,6 +225,7 @@ section {
   width: 100%;
   background-position: center;
   backgroun-repeat: no-repeat;
+  background-size: auto;
   background-attachment: fixed;
 
   opacity: .9;
