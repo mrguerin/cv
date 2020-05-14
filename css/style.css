@@ -225,9 +225,8 @@ section {
   width: 100%;
   background-position: center;
   backgroun-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
-
   opacity: .9;
 }
 
@@ -243,6 +242,8 @@ section {
   .footer {
     font-size: 2rem;
   }
+    .city{ background-size: cover;}
+}
 
 }
 @media (max-width: 548px) {
@@ -257,5 +258,7 @@ section {
   .footer {
     font-size: 1rem;
   }
+  .city{ background-size: cover;}
+}
 
 }
