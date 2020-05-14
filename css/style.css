@@ -251,10 +251,27 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  }
+ 
+}
+@media (max-width: 548px) {
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .heading {
+    font-size: 1rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+
+  .city {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     opacity: .9;
     overflow: hidden;
   }
-}
