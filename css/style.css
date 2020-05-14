@@ -224,12 +224,9 @@ section {
   height: 100vh;
   width: 100%;
   background-position: center;
-  background-size: cover;
   backgroun-repeat: no-repeat;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+
   opacity: .9;
 }
 
@@ -246,13 +243,6 @@ section {
     font-size: 2rem;
   }
 
-  .city {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
- 
 }
 @media (max-width: 548px) {
   .title {
@@ -267,12 +257,4 @@ section {
     font-size: 1rem;
   }
 
-  .city {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: .9;
-    overflow: hidden;
-  }
 }
