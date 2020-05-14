@@ -1,35 +1,96 @@
 body {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'Noto Sans SC', sans-serif;
   text-align: center;
   background-color: #f2f2f2;
   line-height: 1.6;
 }
 
 h1 {
-  font-family: "Tinos", serif;
+  font-family: 'Noto Sans SC', sans-serif;
   color: #0C395E;
   text-align: center;
-  font-size: 2.5em;
+  margin: 100px auto;
+  font-size: 1.5em;
+  max-width: 600px;
 }
 
-h3 {
-  font-family: "Tinos", serif;
-  font-size: 2em;
+span {
+  background: inherit;
+  text-align: center;
+  position: relative;
 }
+h3 {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 1.2em;
+}
+.title {
+  padding-top: 5%;
+  font-family: 'Lato', 'Noto Sans SC', sans-serif;
+  position: relative;
+  max-width: 900px;
+  color: #0C395E;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 3rem;
+}
+
+.title::before {
+  content: '\00a0\00a0\00a0';
+  text-decoration: line-through;
+  margin: auto 0.3em;
+
+}
+
+.title::after {
+  content: '\00a0\00a0\00a0';
+  text-decoration: line-through;
+  margin: auto 0.3em;
+}
+.heading {
+  font-family: 'Lato', 'Noto Sans SC', sans-serif;
+  position: relative;
+  max-width: 700px;
+  color: #0C395E;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.heading::before {
+  content: '\00a0\00a0\00a0\00a0';
+  text-decoration: line-through;
+  margin: auto 0.5em;
+}
+
+.heading::after {
+  content: '\00a0\00a0\00a0\00a0';
+  text-decoration: line-through;
+  margin: auto 0.5em;
+}
+
+
 
 h4 {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1.5em;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 1.2em;
   color: #1082E1;
 }
 
+
+
+p ,li{
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: .9em;
+  color: #505050;
+  text-align: left;
+  line-height: inherit;
+}
 p {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: 'Noto Sans SC', sans-serif;
   margin-top: 10px;
-  font-size: 1.5em;
-  color: #1082E1;
+  font-size: .9em;
+  color: #505050;
+  text-align: center;
 }
-
 a {
   text-decoration: none;
 }
@@ -39,22 +100,38 @@ ul {
 }
 
 section {
-  padding: 1% 0;
+  padding: 2% 0;
   background-color: #f2f2f2;
   text-align: center;
 }
 
-li {
-  text-align: left;
+
+.me {
+  width: 600px;
+  height: 480px;
+}
+
+.sub-headers {
+  color: #0C395E;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 1.0rem;
 }
 
 .headers {
   border-style: solid;
+  border-width: thin;
   border-color: #0C395E;
-  font-family: "Open Sans Condensed";
+  text-align: center;
+  font-size: 20px;
+  color: #0C395E;
+  text-transform: uppercase;
+
 }
-.left{text-align: left;}
-.center{text-align: center;}
+
+.left {
+  text-align: left;
+}
+
 .closer {
   background-color: #0C395E;
 }
@@ -63,31 +140,30 @@ li {
   border-top: 3px dotted #f2f2f2;
 }
 
-.hrmid {
-  border-top: 3px dotted #176EB6;
-}
-
 .jobs {
   text-align: center;
-  font-size: 30px;
-
+  font-size: 20px;
+  color: #0C395E;
+  text-transform: uppercase;
 }
 
 .quotes {
   color: #0C395E;
   text-align: center;
+  font-size: .97rem;
 }
 
 .quotes2 {
   color: #f2f2f2;
   text-align: center;
+  font-size: .97rem;
 }
 
 .education {
-  font-size: 50px;
+  padding-top: 6%;
   color: #0C395E;
-  text-align: left;
-  padding: 40px 180px;
+  font-size: 1.2rem;
+  font-family: 'Noto Sans SC', sans-serif;
 }
 
 .dates {
@@ -109,28 +185,21 @@ li {
 .logo2 {
   text-align: center;
   background-color: inherit;
-  margin-right: 3%;
+}
+.logo3 {
+  text-align: center;
+  background-color: inherit;
+  margin-left: .9%;
 }
 
 .footer {
   color: #f2f2f2;
-}
-
-.name {
-  font-family: "Tinos", serif;
-  font-size: 60px;
-  color: #0C395E;
-  text-align: center;
-  position: static;
-  display: grid;
-  margin-top: 50px;
-  text-shadow: 1px 1px #1082E1;
-  opacity: 3;
+  letter-spacing: 5px;
 }
 
 /* skills */
 .skillz {
-  font-size: 1.5rem;
+  font-size: 1.2em;
   margin: auto;
   text-align: center;
   color: #176EB6;
@@ -158,13 +227,8 @@ li {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   opacity: .9;
-  background-position:center; 
-  background-attachment:scroll; 
-  -o-background-size:cover; 
-  -moz-background-size:cover; 
-  -webkit-background-size:cover; 
-  background-repeat:no-repeat;
 }
-
-
